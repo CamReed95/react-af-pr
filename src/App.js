@@ -1,16 +1,19 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './header.css';
-import './Header.js';
-import './State.js'
+import './Components/Header.css';
+import './Components/Header.js';
+import './Components/Card.js';
+import './Components/Data.js';
 
 class App extends Component {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+  constructor () {
+    super();
+
+    this.State {
+      user: 
+    }
+  }
 }
 
 export default App;
